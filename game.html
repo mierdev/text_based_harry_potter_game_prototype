@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mygame.css">
+    <title>RPG - Harry Potter</title>
+  </head>
+  <body>
+    <div id="game-window">
+      <div id="player-stats">
+        <span class="stats">XP: <strong><span id="player-xp">0</span></strong></span>
+        <span class="stats">Health: <strong><span id="player-health">100</span></strong></span>
+        <span class="stats">Gold: <strong><span id="player-gold">50</span></strong></span>
+      </div>
+      <div id="player-actions">
+        <button id="player-action-1">Go to Hogwarts</button>
+        <button id="player-action-2">Go to Hogsmeade</button>
+        <button id="player-action-3">Fight Lord Voldemort</button>
+      </div>
+      <div id="evil-wizard-stats">
+        <span class="stats">You're dueling: <strong><span id="evil-wizard-name">Lord Voldemort</span></strong></span>
+        <span class="stats">Health: <strong><span id="evil-wizard-health">150</span></strong></span>
+      </div>
+      <div id="story">
+          Welcome to the Wizarding World! You must defeat the evil wizard Lord Voldemort, who threatens all Muggles and those who help them.<br><br>You are at the Train Station. Where do you want to go? Use the buttons above to start your adventure.
+      </div>
+      <div id="win-emoticon"> 🎉</div>
+      <div id="lose-emoticon"> 💀</div>
+      <div id="details-panel">
+        <div><span class="details-label">Current spell: </span><strong><span class="details" id="details-1">Petrificus Totalus</span></strong></div>
+        <div><span class="details-label">Potions: </span><strong><span class="details" id="details-2">0</span></strong></div>
+        <div id="hidden-panel-1"><span class="details-label" id="details-label-3"></span><strong><span class="details" id="details-3"></span></strong></div>
+        <div id="hidden-panel-2"><span class="details-label" id="details-label-4"></span><strong><span class="details" id="details-4"></span></strong></div>
+      </div>
+    </div>
+    <script src="./mygame.js"></script>
+  </body>
+</html>
