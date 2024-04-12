@@ -10,3 +10,7 @@ Things I've changed:
 - Added a potion functionality, buy them in the store, use them during duels (instead of just buying health)
 - Added extra UI features (extra info at the bottom of the game screen)
 - Changed the look of the whole game (massive CSS changes). 
+
+## How can you play the game?
+
+[CLICK HERE TO PLAY THE GAME](https://htmlpreview.github.io/?https://github.com/mierdev/text_based_harry_potter_game_prototype/blob/main/mygame.html)
